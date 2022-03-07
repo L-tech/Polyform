@@ -22,7 +22,7 @@ const useCommentsContract = () => {
   const provider = useProvider();
 
   const contract = wagmi.useContract({
-    addressOrName: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    addressOrName: "0xAc4118c89E354B46f6C9bD5C4Ede197676a33D96",
     contractInterface: CommentsContract.abi,
     signerOrProvider: signer.data || provider,
   });
