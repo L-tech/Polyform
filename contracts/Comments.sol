@@ -15,7 +15,7 @@ contract Comments {
   }
 
   mapping(string => Comment[]) private commentsByTopic;
-    uint32 private idCounter;
+  uint32 private idCounter;
        
   // Notify users that a comment was added 
   event CommentAdded(Comment comment);
